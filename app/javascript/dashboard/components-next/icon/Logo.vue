@@ -1,21 +1,20 @@
 <script setup>
-import { useAttrs } from 'vue';
+import { useAttrs, computed } from 'vue';
 import { useMapGetter } from 'dashboard/composables/store';
 
 const attrs = useAttrs();
 const globalConfig = useMapGetter('globalConfig/get');
+
+// Ahmad AI: Use custom logo
+const logoUrl = computed(() => {
+  return globalConfig.value?.logoThumbnail || '/brand-assets/logo.png';
+});
 </script>
 
 <template>
   <img
-    v-if="globalConfig.logoThumbnail"
     v-bind="attrs"
-    :src="globalConfig.logoThumbnail"
-  />
-  <img
-    v-else
-    v-bind="attrs"
-    src="/brand-assets/logo.png"
+    :src="logoUrl"
     alt="Ahmad AI"
   />
 </template>
