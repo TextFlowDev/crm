@@ -341,6 +341,15 @@ Rails.application.routes.draw do
           end
 
           resources :upload, only: [:create]
+
+          # SEO Tools API
+          namespace :seo do
+            post :keyword_research
+            post :serp_analysis
+            post :ai_analysis
+            post :domain_overview
+            post :content_suggestions
+          end
         end
       end
       # end of account scoped api routes

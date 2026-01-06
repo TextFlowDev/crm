@@ -39,6 +39,7 @@ import whatsappTemplates from './whatsappTemplates.json';
 import contentTemplates from './contentTemplates.json';
 import mfa from './mfa.json';
 import yearInReview from './yearInReview.json';
+import seoTools from './seoTools.json';
 
 export default {
   ...advancedFilters,
@@ -82,4 +83,5 @@ export default {
   ...contentTemplates,
   ...mfa,
   ...yearInReview,
+  ...seoTools,
 };

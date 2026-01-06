@@ -436,6 +436,13 @@ const menuItems = computed(() => {
       ],
     },
     {
+      name: 'SEO',
+      label: t('SIDEBAR.SEO_TOOLS'),
+      icon: 'i-lucide-search-check',
+      to: accountScopedRoute('seo_tools'),
+      activeOn: ['seo_tools'],
+    },
+    {
       name: 'Portals',
       label: t('SIDEBAR.HELP_CENTER.TITLE'),
       icon: 'i-lucide-library-big',

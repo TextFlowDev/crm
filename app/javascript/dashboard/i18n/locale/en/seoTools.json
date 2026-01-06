@@ -1,0 +1,77 @@
+{
+  "SIDEBAR": {
+    "SEO_TOOLS": "SEO Tools"
+  },
+  "SEO_TOOLS": {
+    "TITLE": "SEO Tools",
+    "DESCRIPTION": "Research keywords, analyze SERPs, and get AI-powered SEO insights",
+    "CLEAR": "Clear All",
+    "TABS": {
+      "KEYWORD": "Keyword Research",
+      "SERP": "SERP Analysis",
+      "AI": "AI Analysis",
+      "DOMAIN": "Domain Overview",
+      "CONTENT": "Content Ideas"
+    },
+    "KEYWORD": {
+      "INPUT_LABEL": "Enter Keyword",
+      "INPUT_PLACEHOLDER": "e.g., digital marketing malaysia",
+      "LOCATION": "Location",
+      "SEARCH": "Research",
+      "LOADING": "Researching keyword...",
+      "METRICS": "Keyword Metrics",
+      "VOLUME": "Monthly Volume",
+      "CPC": "Avg. CPC",
+      "COMPETITION": "Competition",
+      "TREND": "Trend",
+      "SUGGESTIONS": "Related Keywords",
+      "TABLE": {
+        "KEYWORD": "Keyword",
+        "VOLUME": "Volume",
+        "CPC": "CPC",
+        "COMPETITION": "Competition",
+        "ACTIONS": "Actions"
+      },
+      "SEARCH_THIS": "Search this keyword",
+      "EMPTY_STATE": "Enter a keyword to start your research",
+      "ERROR": "Failed to fetch keyword data. Please try again."
+    },
+    "SERP": {
+      "INPUT_LABEL": "Search Query",
+      "INPUT_PLACEHOLDER": "Enter search query",
+      "SEARCH": "Analyze",
+      "LOADING": "Analyzing SERP...",
+      "RESULTS": "Search Results",
+      "RELATED": "Related Searches",
+      "PAA": "People Also Ask",
+      "EMPTY_STATE": "Enter a query to analyze search results"
+    },
+    "AI": {
+      "INPUT_LABEL": "Keyword to Analyze",
+      "INPUT_PLACEHOLDER": "Enter keyword for AI analysis",
+      "ANALYZE": "Get AI Analysis",
+      "LOADING": "AI is analyzing...",
+      "RESULTS": "AI Insights",
+      "EMPTY_STATE": "Enter a keyword for AI-powered SEO analysis"
+    },
+    "DOMAIN": {
+      "INPUT_LABEL": "Domain",
+      "INPUT_PLACEHOLDER": "e.g., example.com",
+      "ANALYZE": "Analyze Domain",
+      "LOADING": "Analyzing domain...",
+      "EMPTY_STATE": "Enter a domain to analyze"
+    },
+    "CONTENT": {
+      "INPUT_LABEL": "Target Keyword",
+      "INPUT_PLACEHOLDER": "Enter target keyword",
+      "GENERATE": "Get Suggestions",
+      "LOADING": "Generating content ideas...",
+      "EMPTY_STATE": "Enter a keyword to get content suggestions"
+    },
+    "HISTORY": {
+      "TITLE": "Recent Searches",
+      "EMPTY": "No recent searches",
+      "CLEAR": "Clear History"
+    }
+  }
+}
